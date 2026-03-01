@@ -6,7 +6,7 @@
   animation: gradientAnimation 15s ease infinite;
   background-size: 400% 400%;
   min-height: 100vh;
-  padding: 80px 0 60px 0;
+  padding: 140px 0 60px 0;
   display: flex;
   align-items: center;
 }
@@ -135,14 +135,14 @@ body.dark-mode .home-section {
 
 .profile-photo-container {
   width: 100%;
-  max-width: 450px;
+  max-width: 420px;
   height: auto;
 }
 
 .profile-photo {
   width: 100%;
   height: auto;
-  max-height: 500px;
+  max-height: 480px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
@@ -275,6 +275,10 @@ body.dark-mode .home-section {
 }
 
 @media (max-width: 968px) {
+  .home-section {
+    padding: 120px 0 50px 0;
+  }
+
   .home-content {
     grid-template-columns: 1fr;
     text-align: center;
@@ -306,7 +310,7 @@ body.dark-mode .home-section {
   }
 
   .profile-photo {
-    max-height: 400px;
+    max-height: 380px;
   }
 
   .image-placeholder {
@@ -320,6 +324,10 @@ body.dark-mode .home-section {
 }
 
 @media (max-width: 640px) {
+  .home-section {
+    padding: 100px 0 40px 0;
+  }
+
   .name {
     font-size: 2.2rem;
   }
@@ -337,7 +345,7 @@ body.dark-mode .home-section {
   }
 
   .profile-photo {
-    max-height: 350px;
+    max-height: 330px;
   }
 
   .image-placeholder {
