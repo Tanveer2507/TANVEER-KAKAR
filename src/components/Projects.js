@@ -9,7 +9,7 @@ const Projects = () => {
       technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/Tanveer2507/Students-Result-Management-System',
       demo: 'https://github.com/Tanveer2507/Students-Result-Management-System',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop'
     },
     {
       title: 'Car Price Prediction Web Application',
@@ -17,7 +17,7 @@ const Projects = () => {
       technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn'],
       github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
       demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
-      image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=500&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=300&fit=crop'
     },
     {
       title: 'Data Analysis Dashboard',
@@ -33,7 +33,7 @@ const Projects = () => {
       technologies: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'],
       github: 'https://github.com/Tanveer2507/TANVEER-KAKAR',
       demo: 'https://github.com/Tanveer2507/TANVEER-KAKAR',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop'
     },
     {
       title: 'Investment Management System',
@@ -41,7 +41,7 @@ const Projects = () => {
       technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/Tanveer2507/Investment-Management-System',
       demo: 'https://github.com/Tanveer2507/Investment-Management-System',
-      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=300&fit=crop'
     },
     {
       title: 'Breast Cancer Diagnosis Predictor',
@@ -49,7 +49,7 @@ const Projects = () => {
       technologies: ['Python', 'Machine Learning', 'Scikit-learn', 'Pandas', 'NumPy'],
       github: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
       demo: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop'
     }
   ];
 
