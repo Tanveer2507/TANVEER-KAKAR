@@ -135,14 +135,14 @@ body.dark-mode .home-section {
 
 .profile-photo-container {
   width: 100%;
-  max-width: 420px;
+  max-width: 500px;
   height: auto;
 }
 
 .profile-photo {
   width: 100%;
   height: auto;
-  max-height: 480px;
+  max-height: 550px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
@@ -306,11 +306,11 @@ body.dark-mode .home-section {
   }
 
   .profile-photo-container {
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .profile-photo {
-    max-height: 380px;
+    max-height: 450px;
   }
 
   .image-placeholder {
@@ -341,11 +341,11 @@ body.dark-mode .home-section {
   }
 
   .profile-photo-container {
-    max-width: 260px;
+    max-width: 300px;
   }
 
   .profile-photo {
-    max-height: 330px;
+    max-height: 400px;
   }
 
   .image-placeholder {

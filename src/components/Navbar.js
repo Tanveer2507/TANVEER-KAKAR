@@ -13,6 +13,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLogoClick = () => {
+    window.location.href = '/';
+  };
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -24,7 +28,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
-        <div className="logo" onClick={() => scrollToSection('home')}>
+        <div className="logo" onClick={handleLogoClick}>
           <img src="/logo.svg" alt="TK Logo" className="logo-img" />
           <div>
             <span className="logo-text">Tanveer</span>
