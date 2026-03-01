@@ -12,20 +12,12 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop'
     },
     {
-      title: 'Car Price Prediction Web Application',
-      description: 'Built a machine learning model using scikit-learn, achieving 85%+ prediction accuracy. Developed a Streamlit web application for real-time car price prediction with a clean and responsive UI.',
-      technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn'],
-      github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
-      demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
-      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=300&fit=crop'
-    },
-    {
-      title: 'Data Analysis Dashboard',
-      description: 'Created interactive data visualization dashboard for analyzing business metrics. Implemented real-time data processing and automated reporting features using Python and Power BI.',
-      technologies: ['Python', 'Pandas', 'Power BI', 'SQL'],
-      github: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
-      demo: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
+      title: 'Investment Management System',
+      description: 'Developed a comprehensive investment management system to track and analyze investment portfolios. Implemented features for portfolio management, transaction tracking, and performance analytics with real-time data visualization.',
+      technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Tanveer2507/Investment-Management-System',
+      demo: 'https://github.com/Tanveer2507/Investment-Management-System',
+      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=300&fit=crop'
     },
     {
       title: 'Web Development Projects',
@@ -36,12 +28,12 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop'
     },
     {
-      title: 'Investment Management System',
-      description: 'Developed a comprehensive investment management system to track and analyze investment portfolios. Implemented features for portfolio management, transaction tracking, and performance analytics with real-time data visualization.',
-      technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/Tanveer2507/Investment-Management-System',
-      demo: 'https://github.com/Tanveer2507/Investment-Management-System',
-      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=300&fit=crop'
+      title: 'Car Price Prediction Web Application',
+      description: 'Built a machine learning model using scikit-learn, achieving 85%+ prediction accuracy. Developed a Streamlit web application for real-time car price prediction with a clean and responsive UI.',
+      technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn'],
+      github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
+      demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
+      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=300&fit=crop'
     },
     {
       title: 'Breast Cancer Diagnosis Predictor',
@@ -50,6 +42,14 @@ const Projects = () => {
       github: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
       demo: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop'
+    },
+    {
+      title: 'Data Analysis Dashboard',
+      description: 'Created interactive data visualization dashboard for analyzing business metrics. Implemented real-time data processing and automated reporting features using Python and Power BI.',
+      technologies: ['Python', 'Pandas', 'Power BI', 'SQL'],
+      github: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
+      demo: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
     }
   ];
 
