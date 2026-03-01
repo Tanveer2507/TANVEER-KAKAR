@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tanveer Kakar - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Calibri', 'Arial', sans-serif; 
+            line-height: 1.5; 
+            color: #333;
+            padding: 30px 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 11pt;
+        }
+        
+        /* Header */
+        .header {
+            margin-bottom: 20px;
+        }
+        .name { 
+            color: #2B7A9B; 
+            font-size: 36pt; 
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        .title { 
+            color: #2B7A9B; 
+            font-size: 16pt; 
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        
+        /* Contact Info */
+        .contact-info { 
+            margin-bottom: 15px; 
+            font-size: 10pt;
+            color: #333;
+            line-height: 1.6;
+        }
+        .contact-info div {
+            margin-bottom: 3px;
+        }
+        .contact-icon {
+            color: #2B7A9B;
+            margin-right: 5px;
+        }
+        
+        /* Two Column Layout */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .left-column, .right-column {
+            min-height: 100%;
+        }
+        
+        /* Section Styling */
+        .section { 
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        .section-title { 
+            color: #2B7A9B; 
+            font-size: 13pt; 
+            font-weight: bold;
+            border-bottom: 2px solid #2B7A9B;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+        }
+        
+        /* Professional Summary */
+        .summary-text {
+            font-size: 10pt;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        .summary-text strong {
+            font-weight: bold;
+        }
+        
+        /* Professional Experience */
+        .job-title { 
+            font-weight: bold; 
+            color: #000;
+            font-size: 11pt;
+            margin-bottom: 2px;
+        }
+        .company { 
+            color: #333; 
+            font-size: 10pt;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        .description { 
+            margin-left: 15px; 
+            font-size: 10pt;
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+        .description li { 
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+        
+        /* Technical Skills */
+        .skill-item {
+            margin-bottom: 8px;
+            font-size: 10pt;
+        }
+        .skill-label {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        /* Education */
+        .education-item {
+            margin-bottom: 12px;
+        }
+        .degree {
+            font-weight: bold;
+            color: #000;
+            font-size: 11pt;
+            margin-bottom: 2px;
+        }
+        .university {
+            color: #333;
+            font-size: 10pt;
+            line-height: 1.4;
+        }
+        .university-name {
+            font-style: italic;
+        }
+        .education-details {
+            margin-left: 15px;
+            font-size: 10pt;
+        }
+        
+        /* Projects */
+        .project-item {
+            margin-bottom: 12px;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #000;
+            font-size: 11pt;
+            margin-bottom: 3px;
+        }
+        .project-subtitle {
+            font-weight: bold;
+            font-size: 10pt;
+            margin-bottom: 3px;
+        }
+        .project-tech {
+            font-size: 10pt;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        
+        /* Certifications */
+        .cert-item {
+            margin-bottom: 10px;
+            font-size: 10pt;
+        }
+        .cert-title {
+            font-weight: bold;
+            color: #000;
+        }
+        .cert-details {
+            color: #333;
+            font-style: italic;
+            line-height: 1.4;
+        }
+        
+        /* Soft Skills */
+        .soft-skills {
+            font-size: 10pt;
+        }
+        .soft-skills li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="name">Tanveer Kakar</div>
+        <div class="title">Python Developer</div>
+    </div>
+    
+    <!-- Contact Info -->
+    <div class="contact-info">
+        <div><span class="contact-icon">✉</span> tanveerkakar294@gmail.com</div>
+        <div><span class="contact-icon">☎</span> +91-8149853942</div>
+        <div><span class="contact-icon">📍</span> Pune, Maharashtra</div>
+        <div><span class="contact-icon">🔗</span> linkedin.com/in/tanveer-kakar</div>
+        <div><span class="contact-icon">💻</span> github.com/Tanveer2507</div>
+        <div><span class="contact-icon">🌐</span> https://linktr.ee/tanveerkakar</div>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="content">
+        <!-- Left Column -->
+        <div class="left-column">
+            <!-- Professional Summary -->
+            <div class="section">
+                <div class="section-title">Professional Summary</div>
+                <div class="summary-text">
+                    <strong>Aspiring Python developer</strong> with hands-on experience in Python, SQL, and web development. 
+                    Passionate about designing efficient, scalable, and user-friendly applications while writing clean, 
+                    maintainable, and well-documented code to solve real-world problems.
+                </div>
+            </div>
+
+            <!-- Professional Experience -->
+            <div class="section">
+                <div class="section-title">Professional Experience</div>
+                
+                <div style="margin-bottom: 15px;">
+                    <div class="job-title">Data Analyst | Intern</div>
+                    <div class="company">D Trade Capital</div>
+                    <div class="company">November 2025 – Present | Tamil Nadu, Karnataka</div>
+                    <ul class="description">
+                        <li>Worked on real-time data collection, data cleaning, and preprocessing to ensure data accuracy and consistency.</li>
+                        <li>Designed and structured database schemas to improve data organization, integrity, and reporting efficiency.</li>
+                        <li>Led and mentored 2–3 interns, guiding them in data management tasks and ensuring timely project delivery.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="section">
+                <div class="section-title">Technical Skills</div>
+                
+                <div class="skill-item">
+                    <span class="skill-label">Programming Languages:</span> HTML, CSS, Javascript, Python, SQL
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Libraries & Frameworks:</span> NumPy, Pandas, Django
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Databases:</span> MySQL, Oracle
+                </div>
+                <div class="skill-item">
+                    <span class="skill-label">Tools & IDEs:</span> VS Code, Jupyter Notebook
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="section">
+                <div class="section-title">Certifications</div>
+                
+                <div class="cert-item">
+                    <div class="cert-title">Full Stack Python with Data Analysis Training, | QSpiders, Pune</div>
+                    <div class="cert-details">
+                        <em>Tools & Technologies:</em> Python, SQL, JavaScript, HTML, CSS, Power BI<br>
+                        <em>Key Competencies:</em> Full Stack Development, Database Management, Data Cleaning, Analysis, Visualization, and Reporting
+                    </div>
+                </div>
+                
+                <div class="cert-item" style="margin-top: 10px;">
+                    <div class="cert-title">Web Development & Design Intern | Oasis Infobyte</div>
+                    <ul class="description">
+                        <li>Completed a one-month AICTE-approved OIB-SIP internship, gaining practical experience in web development and design.</li>
+                        <li>Received positive feedback for delivering high-quality and timely projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <!-- Educational Qualifications -->
+            <div class="section">
+                <div class="section-title">Educational Qualifications</div>
+                
+                <div class="education-item">
+                    <div class="degree">B.Sc. in Information Technology</div>
+                    <div class="university university-name">Kavayitri Bahinabai Chaudhari North Maharashtra University</div>
+                    <div class="university">June 2022 – June 2025 | Jalgaon, Maharashtra</div>
+                    <div class="education-details">• CGPA: 9.03</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="degree">HSC (Maharashtra State Board - Aurangabad)</div>
+                    <div class="university university-name">Ekta Junior College, Anwa Bhokardan, Jalna</div>
+                    <div class="university">June 2020 – March 2022 | Aurangabad, Maharashtra</div>
+                    <div class="education-details">• Percentage: 79.17%</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="degree">SSC (Maharashtra State Board – Nashik)</div>
+                    <div class="university university-name">Anglo Urdu High School, Pachora, Jalgaon</div>
+                    <div class="university">March 2020 | Jalgaon, Maharashtra</div>
+                    <div class="education-details">• Percentage: 85.00%</div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="section">
+                <div class="section-title">Projects</div>
+                
+                <div class="project-item">
+                    <div class="project-title">1. Student Result Management System</div>
+                    <div class="project-subtitle">Skills:</div>
+                    <div class="project-tech">Python, SQL, HTML, CSS, JavaScript, Django</div>
+                    <ul class="description">
+                        <li>Developed a Python-based result management system, handling and reducing manual result processing time by 60%.</li>
+                        <li>Designed and implemented relational database schemas using SQL to ensure data accuracy and integrity.</li>
+                        <li>Automated grade calculation and result updates using backend Python logic.</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-title">2. Car Price Prediction Web Application</div>
+                    <div class="project-subtitle">Tools & Technologies:</div>
+                    <div class="project-tech">Python, Streamlit, Pandas, NumPy, scikit-learn</div>
+                    <ul class="description">
+                        <li>Built a machine learning model using scikit learn, achieving 85%+ prediction accuracy on test data.</li>
+                        <li>Developed a Streamlit web application for <strong>real-time car price prediction</strong> based on user inputs.</li>
+                        <li>Created a clean and responsive UI to enhance usability.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="section">
+                <div class="section-title">Soft Skills</div>
+                <ul class="soft-skills">
+                    <li>Communication</li>
+                    <li>Adaptability and quick learning of new technologies</li>
+                    <li>Time management</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
