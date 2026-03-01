@@ -7,24 +7,24 @@ const Projects = () => {
       title: 'Student Result Management System',
       description: 'Developed a Python-based result management system, reducing manual result processing time by 60%. Designed relational database schemas using SQL and automated grade calculation with backend Python logic.',
       technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
+      github: 'https://github.com/Tanveer2507/Students-Result-Management-System',
+      demo: 'https://github.com/Tanveer2507/Students-Result-Management-System',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop'
     },
     {
       title: 'Car Price Prediction Web Application',
       description: 'Built a machine learning model using scikit-learn, achieving 85%+ prediction accuracy. Developed a Streamlit web application for real-time car price prediction with a clean and responsive UI.',
       technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
+      github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
+      demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
       image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=500&h=300&fit=crop'
     },
     {
       title: 'Data Analysis Dashboard',
       description: 'Created interactive data visualization dashboard for analyzing business metrics. Implemented real-time data processing and automated reporting features using Python and Power BI.',
       technologies: ['Python', 'Pandas', 'Power BI', 'SQL'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
+      github: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
+      demo: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
     },
     {
