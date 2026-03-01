@@ -44,12 +44,12 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop'
     },
     {
-      title: 'Data Collection & Processing',
-      description: 'Worked on real-time data collection, cleaning, and preprocessing to ensure data accuracy and consistency. Automated data workflows for improved efficiency.',
-      technologies: ['Python', 'Pandas', 'NumPy', 'SQL'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop'
+      title: 'Breast Cancer Diagnosis Predictor',
+      description: 'Developed a machine learning model to predict breast cancer diagnosis using medical data. Implemented classification algorithms with high accuracy for early detection and diagnosis support.',
+      technologies: ['Python', 'Machine Learning', 'Scikit-learn', 'Pandas', 'NumPy'],
+      github: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
+      demo: 'https://github.com/Tanveer2507/Breast_Cancer_Diagnosis_Predictor',
+      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=300&fit=crop'
     }
   ];
 
