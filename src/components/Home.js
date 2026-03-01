@@ -2,6 +2,20 @@ import React from 'react';
 import './Home.css';
 
 const Home = () => {
+  const handleDownloadResume = () => {
+    // Convert Google Drive view link to direct download link
+    const fileId = '1sZVGA_uTVs-ymnJVFqXtF3xza6KNuS33';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    
+    // Create a temporary anchor element and trigger download
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = 'Tanveer_Kakar_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="home-section">
       <div className="container">
@@ -17,7 +31,7 @@ const Home = () => {
             </p>
             <div className="home-buttons">
               <a href="#contact" className="btn btn-primary">Hire Me</a>
-              <a href="https://drive.google.com/file/d/1sZVGA_uTVs-ymnJVFqXtF3xza6KNuS33/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn btn-outline">Download Resume</a>
+              <button onClick={handleDownloadResume} className="btn btn-outline">Download Resume</button>
             </div>
           </div>
           <div className="home-image">
