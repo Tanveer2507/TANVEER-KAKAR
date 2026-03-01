@@ -39,6 +39,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <div className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           <button className="nav-link" onClick={() => scrollToSection('home')}>Home</button>
           <button className="nav-link" onClick={() => scrollToSection('about')}>About</button>
+          <button className="nav-link" onClick={() => scrollToSection('resume')}>Resume</button>
           <button className="nav-link" onClick={() => scrollToSection('projects')}>Projects</button>
           <button className="nav-link" onClick={() => scrollToSection('skills')}>Skills</button>
           <button className="nav-link" onClick={() => scrollToSection('contact')}>Contact</button>
