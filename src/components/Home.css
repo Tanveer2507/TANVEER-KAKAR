@@ -131,12 +131,14 @@ body.dark-mode .home-section {
 .profile-photo-container {
   width: 100%;
   max-width: 500px;
-  height: 100%;
+  height: auto;
 }
 
 .profile-photo {
   width: 100%;
   height: auto;
+  max-height: 600px;
+  object-fit: contain;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   display: block;
