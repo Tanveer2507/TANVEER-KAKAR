@@ -3,18 +3,13 @@ import './Home.css';
 
 const Home = () => {
   const handleDownloadResume = () => {
-    // Updated Google Drive file ID
+    // Google Drive file ID
     const fileId = '18PR5NKg27RcHINvj0pF_1LO7VoY19MAI';
-    // Direct download link format
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    // Use Google Drive's direct download URL that works across all browsers
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}&confirm=t`;
     
-    // Create a temporary anchor element and trigger download
-    const link = document.createElement('a');
-    link.href = downloadUrl;
-    link.download = 'Tanveer_Kakar_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open in new window to trigger download
+    window.open(downloadUrl, '_blank');
   };
 
   return (
