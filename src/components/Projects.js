@@ -36,12 +36,12 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop'
     },
     {
-      title: 'Database Management System',
-      description: 'Designed and structured database schemas to improve data organization, integrity, and reporting efficiency. Implemented data cleaning and preprocessing pipelines.',
-      technologies: ['SQL', 'MySQL', 'Oracle', 'Python'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
-      image: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&h=300&fit=crop'
+      title: 'Investment Management System',
+      description: 'Developed a comprehensive investment management system to track and analyze investment portfolios. Implemented features for portfolio management, transaction tracking, and performance analytics with real-time data visualization.',
+      technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/Tanveer2507/Investment-Management-System',
+      demo: 'https://github.com/Tanveer2507/Investment-Management-System',
+      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop'
     },
     {
       title: 'Data Collection & Processing',
