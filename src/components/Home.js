@@ -5,7 +5,7 @@ const Home = () => {
   const handleDownloadResume = () => {
     // Use local resume file from public folder
     const link = document.createElement('a');
-    link.href = '/Tanveer_Kakar (2).pdf';
+    link.href = '/Tanveer_Kakar.pdf';
     link.download = 'Tanveer_Kakar_Resume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
