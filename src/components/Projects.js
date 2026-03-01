@@ -28,11 +28,11 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
     },
     {
-      title: 'Web Development Projects',
-      description: 'Completed multiple web development projects during AICTE-approved internship at Oasis Infobyte. Delivered high-quality, responsive websites with modern design principles.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
+      title: 'Tanveer Kakar - Personal Portfolio',
+      description: 'Developed a modern, responsive portfolio website using React.js to showcase projects, skills, and professional experience. Features include dark/light mode, smooth animations, and interactive UI components.',
+      technologies: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      github: 'https://github.com/Tanveer2507/TANVEER-KAKAR',
+      demo: 'https://github.com/Tanveer2507/TANVEER-KAKAR',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop'
     },
     {
