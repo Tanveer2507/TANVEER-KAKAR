@@ -5,11 +5,27 @@ const Projects = () => {
   const projects = [
     {
       title: 'Student Result Management System',
-      description: 'Developed a Python-based result management system, reducing manual result processing time by 60%. Designed relational database schemas using SQL and automated grade calculation with backend Python logic.',
+      description: 'Developed a Python-based result management system, handling and reducing manual result processing time by 60%. Designed and implemented relational database schemas using SQL to ensure data accuracy and integrity. Automated grade calculation and result updates using backend Python logic.',
       technologies: ['Python', 'Django', 'SQL', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/Tanveer2507/Students-Result-Management-System',
       demo: 'https://github.com/Tanveer2507/Students-Result-Management-System',
       image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop'
+    },
+    {
+      title: 'Car Price Prediction Web Application',
+      description: 'Built a machine learning-powered car price prediction system with real-time inference, achieving 85%+ prediction accuracy on test data. Developed clean ETL pipelines for data preprocessing and feature engineering. Designed an intuitive, responsive UI using Streamlit to enhance user experience.',
+      technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn', 'Pickle', 'Machine Learning'],
+      github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
+      demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
+      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=300&fit=crop'
+    },
+    {
+      title: 'Online Sales Dashboard',
+      description: 'Processed and transformed raw sales data using Excel and SQL to create a structured dataset. Created KPI dashboards using DAX formulas to measure revenue, profit, and sales growth. Designed interactive Power BI reports enabling drill-downs and data-driven decisions. Automated recurring reports to reduce manual workload.',
+      technologies: ['Power BI', 'Excel', 'SQL', 'DAX'],
+      github: 'https://github.com/Tanveer2507',
+      demo: 'https://github.com/Tanveer2507',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
     },
     {
       title: 'Investment Management System',
@@ -20,22 +36,6 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=300&fit=crop'
     },
     {
-      title: 'Web Development Projects',
-      description: 'Completed multiple web development projects during AICTE-approved internship at Oasis Infobyte. Delivered high-quality, responsive websites with modern design principles.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-      github: 'https://github.com/Tanveer2507',
-      demo: 'https://github.com/Tanveer2507',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop'
-    },
-    {
-      title: 'Car Price Prediction Web Application',
-      description: 'Built a machine learning model using scikit-learn, achieving 85%+ prediction accuracy. Developed a Streamlit web application for real-time car price prediction with a clean and responsive UI.',
-      technologies: ['Python', 'Streamlit', 'Pandas', 'NumPy', 'Scikit-learn'],
-      github: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
-      demo: 'https://github.com/Tanveer2507/Car_Price_Prediction_Model_App',
-      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=300&fit=crop'
-    },
-    {
       title: 'Breast Cancer Diagnosis Predictor',
       description: 'Developed a machine learning model to predict breast cancer diagnosis using medical data. Implemented classification algorithms with high accuracy for early detection and diagnosis support.',
       technologies: ['Python', 'Machine Learning', 'Scikit-learn', 'Pandas', 'NumPy'],
@@ -44,12 +44,12 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop'
     },
     {
-      title: 'Data Analysis Dashboard',
-      description: 'Created interactive data visualization dashboard for analyzing business metrics. Implemented real-time data processing and automated reporting features using Python and Power BI.',
-      technologies: ['Python', 'Pandas', 'Power BI', 'SQL'],
-      github: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
-      demo: 'https://github.com/Tanveer2507/Data-Analysis-Dashboard',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop'
+      title: 'Web Development Projects',
+      description: 'Completed multiple web development projects during AICTE-approved internship at Oasis Infobyte. Delivered high-quality, responsive websites with modern design principles. Received positive feedback for delivering high-quality and timely projects.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      github: 'https://github.com/Tanveer2507',
+      demo: 'https://github.com/Tanveer2507',
+      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop'
     }
   ];
 
